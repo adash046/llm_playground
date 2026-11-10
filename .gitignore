@@ -5,8 +5,20 @@ build/
 dist/
 wheels/
 *.egg-info
+# Other generated files
+__pycache__/
+*.pyc
+.DS_Store
 
 # Virtual environments
 .venv
 
+models/
+models2/
 
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
